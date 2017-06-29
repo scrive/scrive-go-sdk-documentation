@@ -13,10 +13,10 @@ Initialize the SDK with your credentials.
 <script src="https://go.scrive.com/sdk.v0.js"></script>
 <script>
 ScriveGO.init({
-	oauth_id: "<OAUTH_ID>",
-	oauth_secret: "<OAUTH_SECRET>",
-	token_id: "<TOKEN_ID>",
-	token_secret: "<TOKEN_SECRET>"
+  oauth_id: "<OAUTH_ID>",
+  oauth_secret: "<OAUTH_SECRET>",
+  token_id: "<TOKEN_ID>",
+  token_secret: "<TOKEN_SECRET>"
 });
 ScriveGO.parse();
 </script>
