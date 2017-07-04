@@ -3,7 +3,8 @@
 ## Introduction
 
 The Scrive GO SDK allows authorized web applications to access Scrive
-GO.
+GO. **Should only be used on internal and non public facing web
+applications**.
 
 ## Example
 
