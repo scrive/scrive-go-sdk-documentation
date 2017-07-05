@@ -67,3 +67,27 @@ Scrive GO upload prompts the user to upload a document to Scrive GO.
 ```html
 <div class="scrive-go-upload"></div>
 ```
+
+## Javascript Methods
+
+### ScriveGO.printURL(url, cb(err, goURL))
+
+Prints document at `url` to Scrive GO.
+
+```js
+ScriveGO.printURL("/test.pdf", function (err, goURL) {
+  if (err) { return alert(err.message); }
+  window.open(goURL);
+});
+```
+
+### ScriveGO.printBlob(blob, cb(err, goURL))
+
+Prints a [`Blob`](https://developer.mozilla.org/en/docs/Web/API/Blob) to Scrive GO.
+
+```js
+ScriveGO.printBlob(blobOfDocument, function (err, goURL) {
+  if (err) { return alert(err.message); }
+  window.open(goURL);
+});
+```
