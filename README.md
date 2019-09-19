@@ -51,6 +51,9 @@ ScriveGO.parse();
 </script>
 ```
 
+If you omit the credentials and just use `ScriveGO.init()` you will be prompted for your Scrive username and password when you attempt to print a document. These credentials will be persistent until the session ends.
+If you want the credentials to be stored in the browser use invoke the init function like so: `ScriveGO.init(null, true)` and the credentials will be stored in the browsers local store.
+
 ## Scrive GO Button
 
 The Scrive GO button sends the document in `data-url` to Scrive GO. The
